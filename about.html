@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUS Virtual Tour</title>
+    <!-- Icon Shortcut -->
+    <link rel="shortcut icon" type="image" href="image/360logowhite.png">
+    <!-- Style.Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Awesomefont -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link fade aos -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+        <!-- Loading Screen -->
+     <div class="loader_bg">
+        <div class="loader"></div>
+     </div>
+     <!-- NAVBAR -->
+     <section class="sub-header">
+        <!-- <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="animasi.html">ANIMASI</a></li>
+                    <li><a href="dkv.html">DKV</a></li>
+                    <li><a href="pplg.html">PPLG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> -->
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+             <div class="nav-links" id="navLinks">
+             <input type="checkbox" id="click">
+             <label for="click" class="menu-btn">
+             <i class="fa fa-bars"></i>
+             </label>
+             <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="animasi.html">ANIMASI</a></li>
+                  <li><a href="dkv.html">DKV</a></li>
+                  <li><a href="pplg.html">PPLG</a></li>
+             </ul>
+            </div>
+          </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About Us -->
+    <section class="info">
+
+        <div class="row-info">
+            <div class="info-col">
+                <p>RUS Animation merupakan studio animasi terbesar di provinsi Jawa Tengah
+                    dengan fasilitas berstandar internasional. Dikelilingi oleh pedesaan yang 
+                    tenang yang bertindak sebagai tempat perlindungan untuk imajinasi kreatif
+                    dimana karya animasi lahir.
+                    <br> <br>
+                    Di sini, studio ini didukung oleh tim R&D yang mengkhususkan diri dalam
+                    mengembangkan alat dan teknologi untuk memfasilitasi proses produksi
+                    animasi. Faktor-faktor ini memungkinkan RUS Animation Studio untuk
+                    bersaing dalam harga, kualitas, dan manajemen waktu proyek.
+                    <br> <br>
+                    RUS Animation Studio menawarkan layanan berbasis proyek di seluruh alur
+                    animasi, mulai dari Pre-production (Storywriting, Concept Art, Storyboarding, 
+                    Animatic, 3D Assets), Animation Production (Layout, Animation, Lighting, 
+                    VFX, Rendering, Compositing), Post-production (Editing, Music Scoring,
+                    Color Grading), 3D Game Development, Augmentedand Virtual Reality
+                    (AR/VR)Development Services, to 3D Photogrammetry.
+                </p>
+                    <a href="https://smkrus.sch.id/"class="hero-btn red-btn"target="_blank">Visit Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Studio -->
+    <section class="studio" data-aos="fade-down">
+        <h1>Our Studio</h1>
+        <p>RUS Animation Studio mengembangkan keterampilan siswa di semua bidang kreatif,
+             mengarahkan mereka untuk menjadi profesional.</p>
+             <div class="row">
+                 <div class="studio-col">
+                     <a href="animasi.html">
+                     <img src="image/studio-animasi.jpg">
+                     <div class="layer">
+                         <h3>ANIMASI</h3>
+                     </div></a>
+                 </div>
+                 <div class="studio-col">
+                     <a href="dkv.html">
+                    <img src="image/studio-dkv.jpg">
+                    <div class="layer">
+                        <h3>DKV</h3>
+                    </div></a>
+                </div>
+                <div class="studio-col">
+                    <a href="pplg.html">
+                    <img src="image/studio-rpl.jpg">
+                    <div class="layer">
+                        <h3>PPLG</h3>
+                    </div></a>
+                </div>
+             </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>SMK Raden Umar Said memiliki SDM kependidikan yang professional,<br> 
+            memiliki manajemen yang efektif dan professional, memiliki lingkungan<br>
+            pendidikan yang kondusif, dan mampu membangun kepercayaan kepada masyarakat.</p>
+            <div class="icons">
+                <a href="https://web.facebook.com/SMKRadenUmarSaid/?_rdc=1&_rdr"target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/smkrus_/"target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCHucsIv6yFY-gz-hnSLYSTA"target="_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+            <p>Copyright©2022 by RUS-Virtualtour.com</p>
+    </section>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 400, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000 // values from 0 to 3000, with step 50ms
+          });
+        </script>
+
+    <!-- js loading screen -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 500);
+    </script>
+    
+    <!-- Javascript Toggle Menu -->
+    <script>
+        var navLinks =document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
